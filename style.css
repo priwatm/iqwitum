@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-style: normal;
+    font-family: 'Slabo 27px', serif;
+
+}
+
+header {
+    display: flex;
+    height: 50px;
+    background-color: #e6e6e6;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header a {
+    margin-right: 5%;
+    text-decoration: none;
+    color: #000000;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #939393;
+
+
+}
+
+main .top {
+    background-image: url(img/0_c4d18_210fb2a0_orig.jpg);
+    height: 600px;
+    width: 60%;
+
+
+
+}
+
+.view {
+    padding-top: 15%;
+    text-align: center;
+}
+
+main h3 {}
+
+main h1 {}
+
+main .about {
+    padding-top: 3%;
+    width: 60%;
+    background: #fff;
+    text-align: left;
+    flex-wrap: wrap;
+
+}
+
+p {
+    padding-left: 2%;
+    width: 90%;
+}
+
+main .group {
+    padding-top: 3%;
+    width: 60%;
+    background: #fff;
+    flex-wrap: wrap;
+    height: 600px;
+
+}
+
+.personview {
+    padding-top: 10px;
+    
+    display: flex;
+}
+
+.person1 {
+    float: left;
+    width: 50%;
+    padding: 3%;
+}
+
+.person2 {
+    width: 50%;
+    padding: 3%;
+
+}
+
+.person3 {
+    width: 50%;
+    float: right;
+    padding: 3%;
+}
+
+img {
+    margin-left: 19%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+
+}
+
+main .quation {}
+
+main .contact {
+    height: 600px;
+}
+
+footer {
+    display: flex;
+    height: 50px;
+    background-color: #e6e6e6;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.text_caption {
+    text-align: center;
+}
