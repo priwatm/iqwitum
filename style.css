@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-style: normal;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Roboto', sans-serif;
     background: url(img/section-002.jpg);
 
 }
@@ -76,7 +76,7 @@ main .about {
 }
 
 p {
-    padding-left: 2%;
+    
     width: 90%;
 }
 
