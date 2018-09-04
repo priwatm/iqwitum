@@ -3,7 +3,7 @@ body {
     font-style: normal;
     font-family: 'Montserrat', sans-serif;
     background: url(img/section-002.jpg);
-   
+
 
 }
 
@@ -28,10 +28,10 @@ header a {
 
 main {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    min-width:470px;
+    min-width: 470px;
     max-width: 70%;
     margin: auto;
 }
@@ -40,7 +40,7 @@ main .top {
 
     height: 600px;
     display: flex;
-width: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 1%, rgba(0, 0, 0, 0.85) 16%, rgba(0, 0, 0, 0.77) 24%, rgba(0, 0, 0, 0.24) 76%, rgba(0, 0, 0, 0.15) 85%, rgba(0, 0, 0, 0) 100%);
@@ -56,26 +56,30 @@ width: 100%;
 }
 
 main h3 {}
+
 .top_composition {
- color: #fff;
+    color: #fff;
     text-align: center;
     position: relative;
+    
 }
+
 .h1_text {
 
-
     margin: 0;
-    margin-top: 3%;;
     font-size: 74px;
-    font-weight: 100;
     border: 1px solid;
     border-bottom: 0;
-    width: 100%;
-
+    text-transform: uppercase;
+    
 
 }
 
+.word {
+    margin: 0 20px;
+    letter-spacing:3px;
 
+}
 
 .top_view {
     display: flex;
@@ -83,7 +87,6 @@ main h3 {}
     text-transform: uppercase;
     align-items: center;
     margin: 0;
-    width: 100%;
     margin-top: -12px;
 
 
@@ -91,7 +94,9 @@ main h3 {}
 
 .p_text {
     margin: 0 10px;
-    font-size: 24px;
+    font-size: 18px;
+    letter-spacing:9px;
+    font-weight: 600;
 }
 
 .top_view::before {
@@ -119,6 +124,7 @@ main .about {
     background: #fff;
     text-align: left;
     flex-wrap: wrap;
+    margin: auto;
 
 }
 
@@ -131,44 +137,57 @@ main .group {
     padding: 3%;
     background: #fff;
     width: 100%;
-
+     height: auto;
+   
+  
 }
 
 .personview {
     padding-top: 10px;
-    display: flex;
+     display: flex;
+      justify-content: space-around;
+     flex-wrap:  wrap;
+    text-align: center;
 }
 
 .person1 {
-    text-align: center;
-    width: 33%;
     padding: 3%;
+    width: 300px;
 
 }
 
 .person2 {
-    text-align: center;
-    width: 33%;
     padding: 3%;
+    width: 300px;
+    
 
 }
 
 .person3 {
-    text-align: center;
-    width: 33%;
     padding: 3%;
+    width: 300px;
+   
 
 
 }
 
-img {
+.person_font {
+     white-space: nowrap;
+    text-align: center;
+}
 
+img {
+    
     width: 150px;
     height: 150px;
     border-radius: 100px;
 
 }
 
+.view_font
+{
+    text-align: left;
+}
 
 
 footer {
@@ -181,6 +200,7 @@ footer {
 
 .text_caption {
     text-align: center;
+    margin: 0 10px;
 }
 
 .quation {
@@ -196,3 +216,5 @@ footer {
     padding-top: 3%;
     background: #fff;
 }
+
+
